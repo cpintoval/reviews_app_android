@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/cancelButtonDetailView"
+        android:src="@drawable/ic_clear_black_48dp"
+        android:background="@null"
+        android:layout_gravity="right"
+        android:layout_width="48dp"
+        android:layout_height="48dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editReviewEditText"
+            android:layout_gravity="center"
+            android:gravity="top"
+            android:padding="5dp"
+            android:background="@drawable/backwithborder"
+            android:layout_width="300dp"
+            android:layout_height="200dp" />
+
+        <Button
+            android:id="@+id/updateReviewButton"
+            android:text="Update Review"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="40dp" />
+
+        <ImageButton
+            android:id="@+id/deleteReviewButton"
+            android:src="@drawable/ic_delete_black_48dp"
+            android:background="@null"
+            android:layout_width="48dp"
+            android:layout_height="48dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

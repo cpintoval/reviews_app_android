@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/cancelButton"
+        android:src="@drawable/ic_clear_black_48dp"
+        android:background="@null"
+        android:layout_gravity="right"
+        android:layout_width="48dp"
+        android:layout_height="48dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/composeReviewEditText"
+            android:hint="Compose your review..."
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:background="@drawable/backwithborder"
+            android:gravity="top"
+            android:layout_height="200dp" />
+
+        <Button
+            android:id="@+id/postReviewButton"
+            android:text="Post Review"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="40dp" />
+
+        <!--<ImageButton
+            android:id="@+id/addPhotoButton"
+            android:src="@drawable/ic_camera_alt_black_48dp"
+            android:background="@null"
+            android:layout_width="48dp"
+            android:layout_height="48dp" />-->
+
+    </LinearLayout>
+
+    <!--<ImageView
+        android:id="@+id/reviewImage"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />-->
+
+</LinearLayout>

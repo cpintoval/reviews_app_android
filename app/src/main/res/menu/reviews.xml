@@ -1,0 +1,17 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/homePageButton"
+        android:icon="@drawable/ic_home_black_48dp"
+        android:title="Home Page"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/addReviewButton"
+        android:icon="@drawable/ic_add_black_48dp"
+        android:title="Add Review"
+        app:showAsAction="always"/>
+
+</menu>
