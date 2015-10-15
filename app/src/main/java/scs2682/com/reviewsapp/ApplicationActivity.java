@@ -203,7 +203,7 @@ public class ApplicationActivity extends Activity
         // Enable Local Datastore.
         Parse.enableLocalDatastore(this);
 
-        Parse.initialize(this, "zymKa9lgPxYgIDR5h5HsI3DKxzi4yw22PCSRClvP", "Nxmu5Vrkmh0mI7YCYMKSeW3339BPfZW2iIwzI9ca");
+        Parse.initialize(this, appID, clientKey);
 
         // add Form
         if (savedInstanceState == null) {
